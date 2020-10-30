@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+/***************Navbar*****************/
+
+.navbar-inverse {
+  background-color: white;
+  margin: 10px;
+}
+
+.navbar-toggle {
+  background-color: #3db9ad;
+}
+
+#menu {
+  border: none;
+}
+
+#menu ul li a {
+  color: black;
+  font-size: 17px;
+}
+
+#menu ul li a:hover {
+  color: teal;
+}
+
+#main-links {
+  font-family: "Syne Mono", monospace;
+  padding: 10px;
+}
+
+#menu ul {
+  float: left;
+}
+
+a {
+  float: left;
+  padding: 10px 12px;
+}
+
+#linkd {
+  color: #424242;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  align-items: center;
+}
+
+#git {
+  color: #424242;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+#nav-list a span {
+  font-size: 1em;
+  margin-right: 0px;
+  color: #3db9ad;
+  font-weight: bold;
+}
+/************Student-Hall Section**************/
+h3 {
+  font-family: "Kurale", serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.student-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+section {
+  border-radius: 5px 8px;
+  background-color: #0b6161;
+  width: 100%;
+  height: 450px;
+}
+
+.containers {
+  padding-left: 4px;
+  margin-top: 0px;
+}
+
+h1 {
+  font-family: Brushstroke, fantasy;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2em;
+  display: block;
+}
+
+#student-info {
+  border-radius: 5px 8px;
+  background-color: white;
+  width: 95%;
+  height: 420px;
+  margin-top: 14px;
+  margin-left: 13px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: "Kurale", serif;
+  color: #093104;
+}
+
+#social-media a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  box-shadow: 1px 4px 2px 2px;
+  background-color: white;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+#social-media {
+  padding-left: 60px;
+}
+
+/**********************Card setup*****************************/
+
+.profile-image img {
+  width: 130px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 600;
+  color: #3db9ad;
+}
+
+.name i {
+  background-color: black;
+}
+
+.birth-place {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 30px;
+  text-align: justify;
+}
+/*******************Compatible for the devices*******************/
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33%;
+  }
+
+  @media (min-width: 1200px) {
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12 {
+      float: left;
+    }
+  }
+
+  .col-lg-1 {
+    width: 8.33%;
+  }
+
+  .col-lg-2 {
+    width: 16.66%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-4 {
+    width: 33%;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-8 {
+    width: 66.66%;
+  }
+
+  .col-lg-9 {
+    width: 74.99%;
+  }
+
+  .col-lg-10 {
+    width: 83.33%;
+  }
+
+  .col-lg-11 {
+    width: 91.66%;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #social-media {
+    padding-left: 10px;
+  }
+}
